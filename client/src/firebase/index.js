@@ -4,13 +4,13 @@ import 'firebase/auth';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const config = {
-  apiKey: 'AIzaSyDFPuVFr2jtVP5LOEkRvgtOs4divVsJsG4',
-  authDomain: 'anafiya-shop.firebaseapp.com',
-  projectId: 'anafiya-shop',
-  storageBucket: 'anafiya-shop.appspot.com',
-  messagingSenderId: '252032847151',
-  appId: '1:252032847151:web:d76d4b07fec2457cfe65da',
-  measurementId: 'G-XJZHCFT94Y',
+  apiKey: "AIzaSyAeQAaML5VyRLKaMi-BKA8Y1256H5Wvmag",
+  authDomain: "eshop-c5b11.firebaseapp.com",
+  projectId: "eshop-c5b11",
+  storageBucket: "eshop-c5b11.appspot.com",
+  messagingSenderId: "792361206764",
+  appId: "1:792361206764:web:7d2609fd3961dac28836c9",
+  // measurementId: 'G-XJZHCFT94Y',
 };
 
 firebase.initializeApp(config);

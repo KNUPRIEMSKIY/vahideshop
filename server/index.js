@@ -3,7 +3,7 @@ import 'colors';
 import path from 'path';
 import express from 'express';
 import morgan from 'morgan';
-import cors from 'cors';
+import cors from 'cors'
 import fileUpload from 'express-fileupload';
 import { errorHandler, notFound } from './middleware/error.js';
 import connectDB from './config/db.js';
@@ -19,7 +19,7 @@ connectDB();
 
 const app = express();
 // Port
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // Bypass cors
 app.use(cors());

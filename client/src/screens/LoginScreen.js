@@ -120,7 +120,7 @@ const LoginScreen = () => {
               onFailure={googleSignInHandler}
               cookiePolicy={'single_host_origin'}
             />
-            <FacebookLogin
+            {/* <FacebookLogin
               appId={process.env.REACT_APP_FACEBOOK_APP_ID}
               autoLoad={false}
               fields='name,email,picture'
@@ -139,7 +139,7 @@ const LoginScreen = () => {
                   <span>Facebook</span>
                 </button>
               )}
-            />
+            /> */}
           </div>
         </div>
       </div>
